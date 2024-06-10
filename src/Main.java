@@ -39,6 +39,25 @@ public class Main {
             System.out.println(year + " ne viskosniy");
         }
 
-        // TASK4
+        // TASK5
+
+        int month = 7;
+
+        switch (month) {
+            case 1:
+                System.out.println("Winter");
+                break;
+            case 4:
+                System.out.println("Spring");
+                break;
+            case 7:
+                System.out.println("Summer");
+                break;
+            case 10:
+                System.out.println("Autumn");
+                break;
+            default:
+                System.out.println("There is no such months");
+        }
     }
 }
